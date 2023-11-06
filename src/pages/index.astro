@@ -1,0 +1,15 @@
+---
+import CampaingPart1 from "src/components/CampaingPart1.astro";
+import Intro from "../components/Intro.astro";
+import PageMeta from "../components/PageMeta.astro";
+import { SITE_TITLE } from "../config";
+import PageLayout from "../layouts/PageLayout.astro";
+---
+
+<PageLayout>
+  <PageMeta title={`${SITE_TITLE}`} slot="meta" />
+  <Fragment slot="main">
+    <Intro />
+    <CampaingPart1 />
+  </Fragment>
+</PageLayout>
