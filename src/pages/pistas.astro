@@ -1,6 +1,6 @@
 ---
 import PageMeta from "../components/PageMeta.astro";
-import { SITE_TITLE } from "../config";
+import { FULL_URL, SITE_TITLE, SITE_URL } from "../config";
 import PageLayout from "../layouts/PageLayout.astro";
 import { blog } from "../lib/markdoc/frontmatter.schema";
 import { readAll } from "../lib/markdoc/read";
@@ -48,7 +48,7 @@ const sortedPosts = posts
                   </a>
                 ) : (
                   <a
-                    href={`/pistas/${post.slug}`}
+                    href={`${FULL_URL}pistas/${post.slug}`}
                     class="unset hover:text-text-link"
                   >
                     {post.frontmatter.title}
