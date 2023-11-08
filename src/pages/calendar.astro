@@ -1,0 +1,17 @@
+---
+import PageMeta from "../components/PageMeta.astro";
+import { SITE_TITLE } from "../config";
+import PageLayout from "../layouts/PageLayout.astro";
+---
+
+<PageLayout>
+  <PageMeta title={`Calendário | ${SITE_TITLE}`} slot="meta" />
+  <Fragment slot="main">
+    <script is:inline src='https://app.fantasy-calendar.com/js/embed.js'></script>
+    <script is:inline>
+      FantasyCalendar({
+        hash: '8032e6d431826245761e3b674899f153',
+      });
+    </script>
+  </Fragment>
+</PageLayout>
