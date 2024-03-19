@@ -8,4 +8,4 @@ date: 2024-03-10T09:00:00Z
 
 Um bilhete encontrado na mão de um cadaver carbonizado nos Arquivos Alte em Lichte.
 
-![Bilhete encontrado na mão de um cadaver carbonizado nos Arquivos Alte em Lichte.](/images/bilhete-izma.png)
+![Bilhete encontrado na mão de um cadaver carbonizado nos Arquivos Alte em Lichte.](/erde/images/bilhete-izma.png)
