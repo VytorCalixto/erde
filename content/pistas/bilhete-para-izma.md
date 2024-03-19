@@ -1,9 +1,9 @@
 ---
 external: false
-draft: true
+draft: false
 title: "Bilhete para Izma"
 description: "Encontradas em Lichte"
-date: 2023-11-09T10:00:00Z
+date: 2024-03-10T09:00:00Z
 ---
 
 Um bilhete encontrado na mão de um cadaver carbonizado nos Arquivos Alte em Lichte.
